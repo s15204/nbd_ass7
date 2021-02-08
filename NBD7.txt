@@ -28,7 +28,7 @@ curl -i http://localhost:8098/buckets/s15204/keys/coolgame
 curl -i -H "Content-Type: application/json" -d '{"fake_document": "yep"}' http://localhost:8098/buckets/s15204/keys
 
 9.
-curl -i http://localhost:8098/buckets/s15204/keys/[document_id]
+curl -i http://localhost:8098/buckets/s15204/keys/XG6Y8V7KpZXay5IGUqab8YTZTym
 
 10.
-curl -i -XDELETE -H "Content-Type: application/json" http://localhost:8098/buckets/s15204/keys/[document_id]
+curl -i -XDELETE -H "Content-Type: application/json" http://localhost:8098/buckets/s15204/keys/XG6Y8V7KpZXay5IGUqab8YTZTym
